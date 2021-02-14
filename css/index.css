@@ -1,0 +1,9 @@
+.mytitle{
+    color: red;
+    text-align: center;
+}
+
+.mytitle > h1{
+    font-size: 56px;
+    margin-bottom: 0;
+}
