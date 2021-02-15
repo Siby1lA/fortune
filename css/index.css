@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+
+@import url('rtans.css');
+
+*{font-family: 'Yeon Sung', cursive;}
+body{
+    background-color: ivory;
+    background-image: url('https://new-year.spartacodingclub.kr/images/pattern.png');
+    background-position: top 100px left 500px;
+    background-repeat: no-repeat;
+}
+
 .mytitle{
-    color: red;
+    color: darkred;
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .mytitle > h1{
     font-size: 56px;
     margin-bottom: 0;
 }
+
+

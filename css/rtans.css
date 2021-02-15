@@ -1,0 +1,54 @@
+.rtans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rtans__row > a{
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid darkred;
+    box-shadow: 0px 0px 10px 0px darkred;
+    border-radius: 50%;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.rtans__row{
+    display: flex;
+}
+
+.rtans__row a:hover{
+    background-color: darkred;
+}
+
+.rtans__row-own a:first-child{background-image: url('https://new-year.spartacodingclub.kr/images/yearS1.png');}
+
+.rtans__row-own a:nth-child(2){ background-image: url('https://new-year.spartacodingclub.kr/images/yearS2.png');}
+
+.rtans__row-own a:nth-child(3){background-image: url('https://new-year.spartacodingclub.kr/images/yearS3.png');}
+
+.rtans__row-own a:nth-child(4){background-image: url('https://new-year.spartacodingclub.kr/images/yearS4.png');}
+
+.rtans__row-own a:nth-child(5){background-image: url('https://new-year.spartacodingclub.kr/images/yearS5.png');}
+
+.rtans__row-own a:nth-child(6){background-image: url('https://new-year.spartacodingclub.kr/images/yearS6.png');}
+
+.rtans__row-two a:first-child{background-image: url('https://new-year.spartacodingclub.kr/images/yearS7.png');}
+
+.rtans__row-two a:nth-child(2){background-image: url('https://new-year.spartacodingclub.kr/images/yearS8.png');}
+
+.rtans__row-two a:nth-child(3){background-image: url('https://new-year.spartacodingclub.kr/images/yearS9.png');}
+
+.rtans__row-two a:nth-child(4){background-image: url('https://new-year.spartacodingclub.kr/images/yearS10.png');}
+
+.rtans__row-two a:nth-child(5){background-image: url('https://new-year.spartacodingclub.kr/images/yearS11.png');}
+
+.rtans__row-two a:nth-child(6){background-image: url('https://new-year.spartacodingclub.kr/images/yearS12.png');}
