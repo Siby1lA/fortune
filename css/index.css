@@ -1,12 +1,18 @@
+/* Font */
 @import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
 
+/* Component */
 @import url('rtans.css');
 
+/* Screen */
+@import url('result.css');
+
 *{font-family: 'Yeon Sung', cursive;}
+
 body{
     background-color: ivory;
     background-image: url('https://new-year.spartacodingclub.kr/images/pattern.png');
-    background-position: top 100px left 500px;
+    background-position: 700px 300px;
     background-repeat: no-repeat;
 }
 
@@ -22,4 +28,43 @@ body{
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 780px){
+    
+    body{
+        background-position: 170px -70px;
+        background-size: 500px;
+    }
 
+    .rtan{
+        margin-top: 50px;
+    }
+
+    .msg{
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 36px;
+        padding: 10px;
+    }
+
+    .msg br{
+        display: none;
+    }
+
+    .rtans{
+        width: 100%;
+    }
+
+    .rtans__row{
+        flex-wrap: wrap;
+    }
+
+    .mytitle{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .rtans a{
+        color: darkred;
+    }
+
+}

@@ -4,7 +4,8 @@
     align-items: center;
 }
 
-.rtans__row > a{
+.rtans__row > a,
+.rtan{
     display: block;
     width: 150px;
     height: 150px;
@@ -19,10 +20,12 @@
     font-size: 24px;
     text-decoration: none;
     text-align: center;
+    
 }
 
 .rtans__row{
     display: flex;
+    justify-content: center;
 }
 
 .rtans__row a:hover{

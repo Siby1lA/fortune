@@ -1,0 +1,49 @@
+.rtan{
+    width: 200px;
+    height: 200px;
+    background-image: url('https://new-year.spartacodingclub.kr/images/yearS1.png');
+    font-size: 32px;
+    background-color: darkred;
+    margin: 80px auto 50px auto;
+}
+
+.result__title{
+    color: darkred;
+    text-align: center;
+    font-size: 32px;
+}
+
+.msg{
+    color: darkred;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    display: none;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 32px;
+}
+
+.btn {
+    border: 2px solid darkred;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-back{
+    background-color: white;
+    color: darkred;
+    
+}
+
+.btn-share{
+    background-color: darkred;
+    color: white;
+    margin-left: 10px;
+}
